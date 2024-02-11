@@ -1,0 +1,28 @@
+# Network Analysis of The Witcher Series
+
+This Python project performs network analysis on characters from "The Witcher" series. It uses NLP to extract character relationships from the books and visualizes these relationships as network graphs.
+
+## Features
+
+- Extracts named entities (characters) from text using SpaCy.
+- Filters entities to focus on main characters.
+- Analyzes relationships based on textual proximity within a window of sentences.
+- Visualizes character relationships using NetworkX and PyVis for both static and interactive graphs.
+
+## Prerequisites
+
+- Python 3.8+
+- SpaCy
+- Pandas
+- NumPy
+- Matplotlib
+- NetworkX
+- PyVis
+
+## Installation
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/<your-username>/<repository-name>.git
+
